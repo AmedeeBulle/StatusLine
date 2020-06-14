@@ -44,7 +44,7 @@ class StatusLinePlugin(octoprint.plugin.TemplatePlugin,
         ))
 
 __plugin_name__ = "Status Line"
-__python_compat__ = ">=2.7,<4"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 def __plugin_load__():
     global __plugin_implementation__
