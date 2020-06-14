@@ -11,3 +11,13 @@ or manually using this URL:
 
     https://github.com/AmedeeBulle/StatusLine/archive/master.zip
 
+## Configuration
+
+If you want to move the plugin to appear at the top of the sidebar, modify the config.yaml file as follows:
+
+appearance:
+  components:
+    order:
+      sidebar:
+      - plugin_status_line
+
