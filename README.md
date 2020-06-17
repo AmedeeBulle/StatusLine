@@ -15,9 +15,10 @@ or manually using this URL:
 
 If you want to move the plugin to appear at the top of the sidebar, modify the config.yaml file as follows:
 
+```yaml
 appearance:
   components:
     order:
       sidebar:
-      - plugin_status_line
-
+        - plugin_status_line
+```
